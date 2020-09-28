@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
+@import url('https://fonts.googleapis.com/css?family=Athiti:400,500,600');
+
+
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	font-family: "Montserrat",sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: montserrat-bold;
+}
+p{
+	color: 
+	font-size: 17px;
+}
+
+/*Container Section*/
+
+.container-fluid{
+	position: relative;
+}
+/*Carousel Section*/
+#carousel-section{
+	
+	position: relative;
+
+}
+
+.calpo{
+	position: absolute;
+	top: 35%;
+
+}
+
+.carousel-heading{
+	color: #ffffff;
+	font-size: 56px;
+	opacity: 1;
+	font-weight: normal;
+	line-height: 120% !important;
+	font-family: 'Athithi' sans-serif;
+}
+.carousel-paragraph{
+	font-weight: bold;
+	line-height: 1.5;
+	letter-spacing: 3px;
+	color: black;
+}
+/*Navbar Section*/
+
+.navbar{
+	position: fixed;
+	width: 100%;
+	top: 2px;
+	left: 2px;
+    padding: 0;
+	
+
+}
+/*.narbar-brand {
+	font-family: "Ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+}*/
+.nav-item{
+	padding: 0 18px;
+}
+.nav-link{
+	font-size: 1.2rem;
+	font-family: "Montserrat-light";
+	color: #ffffff;
+}
+
+#about-us{
+	padding: 3%;
+}
+.igt-container{
+	padding: 3%;
+	text-align: center;
+}
+
+
+
+
+/*Testimonials*/
+
+#testimonials{
+	
+	text-align: center;
+	
+}
+.testimonial-text{
+	font-family: "Montserrat-Bold";
+	font-size: 1.5rem;
+	line-height: 1.5;
+	width: 100%;
+	
+	
+}
+.testimonial-carousel-item{
+	padding: 7% 13%;
+}
+.testimonials-image{
+	border-radius: 50%;
+	margin: 1.4rem;
+	width: 200px;
+	height: 200px;
+}
+.test-control{
+	background-color: #ef8172;
+}
+
+/*About Us*/
+
+#about-us{
+	padding: 7% 3% 7%;
+}
+.about-us-heading{
+	text-align: center;
+}
+.about-us-writeup{
+	line-height: 2;
+
+}
+
+.about-naza-footer{
+	text-align: center;
+	font-family: pristina;
+	font-size: 25px;
+	color: #000;
+}
+
+/*Integrity*/
+.integrity{
+	padding: 4% 3%;
+}
+.icon{
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+.icon:hover{
+	color: #ff4c68;
+}
+
+/*Gallery*/
+#gallery{
+	text-align: center;
+}
+.Gallery{
+	padding: 0 14% 8%;
+}
+.gallery{
+	padding: 0.6rem;
+}
+.gallery-btn-div{
+	padding: 2%;
+}
+
+.gallery-btn{
+	padding: 0.7rem 0;
+	margin: 0.5rem 1.2rem;
+	width: 135px;
+	font-weight: normal;
+	background-color:#fff;
+	border: 0.5px solid;
+	border-radius: 5px;
+	
+
+}
+.gallery-btn:hover, .gallery-btn.active{
+	background-color: #ef8172;
+}
+
+/*Footer*/
+
+#footer{
+	
+	text-align: center;
+	background-color: #696969;
+	padding: 8% 0;
+	width: 100%;
+}
+.footer-writeup{
+	color: #ffffff;
+
+}
+.footer-contact{
+	margin-bottom: 2.5rem;
+
+}
+/*Footer icons*/
+.footer-icons{
+	text-align: center;
+	padding-top: 2%;
+}
+.social-media-icons{
+	margin:20px 10px; 
+}
+
+@media (max-width: 990px){
+	.abt-img{
+		height: 468px;
+		width:100%;
+	}
+	.abt-writeup{
+		padding: 2%;
+		text-align: center;
+	}
+	.img-fluid{
+		height: 350px;
+		width: 100%;
+	}
+
+}
